@@ -31,8 +31,8 @@ p.adjust.default <- function(p, ...) {
 #' @param p An object of class POST. The value object returned by post().
 #'
 #' @param method A character vector object. One or more correction methods.
-#'   must be one or more from {"holm", "hochberg", "hommel", "bonferroni", "BH", "BY",
-#'   "fdr", "none", "TSBH"}.
+#'   must be one or more from \{"holm", "hochberg", "hommel", "bonferroni", "BH", "BY",
+#'   "fdr", "none", "TSBH"\}.
 #'
 #' @param n number of comparisons, must be at least ‘length(p)’; 
 #'   Per ?stats::p.adjust -- only set this (to non-default) when you know 
